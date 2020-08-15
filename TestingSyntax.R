@@ -1,2 +1,5 @@
 x <- 58
-print(x)
+x
+
+msg <- "Coursera" ##just a string test
+msg
