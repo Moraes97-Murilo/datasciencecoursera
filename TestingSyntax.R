@@ -21,7 +21,10 @@ fcc <- c(1+4i,2+6i) #function c complex
 v <- vector("complex", length = 6)
 v
 
-class(v)
+m <- matrix(data = 3:12, nrow = 3, ncol = 3)
+m
+
+class(m)
 as.character(v)
 as.integer(v)
 as.logical(v)
