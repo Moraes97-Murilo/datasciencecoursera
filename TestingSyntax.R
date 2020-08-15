@@ -25,3 +25,7 @@ class(v)
 as.character(v)
 as.integer(v)
 as.logical(v)
+
+l <- list(2,"Rcourse",6,4+7i,F)
+l
+
