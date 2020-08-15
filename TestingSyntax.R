@@ -47,3 +47,19 @@ as.logical(v)
 l <- list(2,"Rcourse",6,4+7i,F)
 l
 
+
+f <- factor(c('cara','coroa','coroa','cara','coroa','cara','cara'))
+f
+
+table(f)
+unclass(f)
+
+testnn <- list(2,7i,NA,8)
+testnn
+
+is.na(testnn)
+
+df <- data.frame(nome = c('Murilo','Marcus','Vinicius'), noob = c(F,F,T))
+df
+attributes(df)
+
