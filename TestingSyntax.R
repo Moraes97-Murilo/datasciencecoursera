@@ -24,7 +24,22 @@ v
 m <- matrix(data = 3:12, nrow = 3, ncol = 3)
 m
 
+m2 <- list(1,0,3,4,2,0,6,1,2,4,2,3,0,0,1)
+dim(m2) <- c(5,3)
+m2
+
+x1 <- list(2,4,0,6)
+x2 <- list(0,2,4,1)
+x3 <- list(0,1,4,0)
+cbind(x1,x2,x3)
+rbind(x2,x1,x3)
+
 class(m)
+dim(m)
+attributes(m)
+
+
+
 as.character(v)
 as.integer(v)
 as.logical(v)
