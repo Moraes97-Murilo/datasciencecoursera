@@ -71,3 +71,4 @@ class(c)
 data <- read.csv("BaseCaseiFood.csv")
 data
 
+packageVersion("swirl")
