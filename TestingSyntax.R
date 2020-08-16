@@ -65,3 +65,9 @@ df <- data.frame(nome = c('Murilo','Marcus','Vinicius'), noob = c(F,F,T))
 df
 attributes(df)
 
+c <-4L
+class(c)
+
+data <- read.csv("BaseCaseiFood.csv")
+data
+
