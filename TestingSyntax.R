@@ -1,5 +1,6 @@
 x <- 58
 x
+names(x) <- "Minutos"
 
 msg <- "Coursera" #just a string test
 msg
@@ -26,6 +27,7 @@ m
 
 m2 <- list(1,0,3,4,2,0,6,1,2,4,2,3,0,0,1)
 dim(m2) <- c(5,3)
+dimnames(m2) <- list(c("a","b","c","d","e"),c("first","secon","third"))
 m2
 
 x1 <- list(2,4,0,6)
@@ -44,7 +46,7 @@ as.character(v)
 as.integer(v)
 as.logical(v)
 
-l <- list(2,"Rcourse",6,4+7i,F)
+l <- list(refeicao = 2, programa = "Rcourse", bebida = 6, sonho = 4+7i, hetero = F)
 l
 
 
@@ -54,7 +56,7 @@ f
 table(f)
 unclass(f)
 
-testnn <- list(2,7i,NA,8)
+testnn <- list(2,7i,NA,8) #testing null values
 testnn
 
 is.na(testnn)
